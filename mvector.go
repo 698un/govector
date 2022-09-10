@@ -3,7 +3,7 @@ This modul is vector unit for GO
 
 */
 
-package github.com/698un/gomvector
+package govector
 
 type MVector struct {
 	X float32
