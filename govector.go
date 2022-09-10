@@ -17,6 +17,15 @@ func NewVector() MVector {
 	res.Y = 0
 	res.Z = 0
 	return res
+}
+
+func VSum(v1, v2 MVector) MVector {
+	res := NewVector()
+
+	res.X = v1.X + v2.X
+	res.Y = v1.Y + v2.Y
+	res.Z = v1.Z + v2.Z
+	return res
 
 }
 
