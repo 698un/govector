@@ -20,7 +20,7 @@ func NewVector() MVector {
 }
 
 func VSum(v1, v2 MVector) MVector {
-	res := NewVector()
+	var res MVector
 
 	res.X = v1.X + v2.X
 	res.Y = v1.Y + v2.Y
