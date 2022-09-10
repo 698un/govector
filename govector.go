@@ -19,7 +19,7 @@ func NewVector() MVector {
 	return res
 }
 
-func VSum(v1, v2 MVector) MVector {
+func SumTwo(v1, v2 MVector) MVector {
 	var res MVector
 
 	res.X = v1.X + v2.X
