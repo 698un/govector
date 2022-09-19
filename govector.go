@@ -28,7 +28,11 @@ func SumTwo(v1, v2 MVector) MVector {
 	return res
 
 }
+func MultScalar(v1, v2 MVector) float32 {
 
-func SumTest(x, y int) int {
-	return x + y
-}
+	return 0 +
+		v1.X*v2.X +
+		v1.Y*v2.Y +
+		v1.Z*v2.Z
+
+} //MultVector
