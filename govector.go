@@ -19,7 +19,7 @@ func NewVector() MVector {
 	return res
 }
 
-func (v1 *MVector) SetTest(inpX, inpY, inpZ float32) {
+func (v1 *MVector) Set(inpX, inpY, inpZ float32) {
 	v1.X = inpX
 	v1.Y = inpY
 	v1.Z = inpZ
