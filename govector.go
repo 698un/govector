@@ -23,7 +23,6 @@ func (v1 *MVector) Set(inpX, inpY, inpZ float32) {
 	v1.X = inpX
 	v1.Y = inpY
 	v1.Z = inpZ
-
 }
 
 func SumTwo(v1, v2 MVector) MVector {
