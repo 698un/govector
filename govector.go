@@ -55,7 +55,7 @@ func MultScalar(v1, v2 MVector) float32 {
 
 } //MultVector
 
-func MultVector(v1, v2 MVector) float32 {
+func MultVector(v1, v2 MVector) MVector {
 
 	var res MVector
 
