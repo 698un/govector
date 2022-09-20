@@ -33,18 +33,19 @@ func Sum2(v1, v2 MVector) MVector {
 
 }
 
-func Sum(v1 []MVector) MVector {
+func Sum(v1 ...MVector) MVector {
 
-	res := NewVector()
+	var res MVector
 
-	for i := 0; i < v1.length; i++ {
+	for i := 0; i < len(v1); i++ {
 		res.X += v1[i].X
 		res.Y += v1[i].Y
 		res.Z += v1[i].Z
+
 	} //next i
 
 	return res
-}
+} //Sum several
 
 func MultScalar(v1, v2 MVector) float32 {
 
