@@ -26,7 +26,27 @@ func (v1 *MVector) Set(inpX, inpY, inpZ float32) {
 
 func Sum2(v1, v2 MVector) MVector {
 	var res MVector
+	res.X = v1.X + v2.X
+	res.Y = v1.Y + v2.Y
+	res.Z = v1.Z + v2.Z
+	return res
 
+}
+
+func Sum(v1 []MVector) MVector {
+	
+	for 
+	
+	var res MVector
+	res.X = v1.X + v2.X
+	res.Y = v1.Y + v2.Y
+	res.Z = v1.Z + v2.Z
+	return res
+
+}
+
+func Sum2(v1, v2 MVector) MVector {
+	var res MVector
 	res.X = v1.X + v2.X
 	res.Y = v1.Y + v2.Y
 	res.Z = v1.Z + v2.Z
