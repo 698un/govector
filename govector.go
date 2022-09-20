@@ -1,5 +1,6 @@
 /*
 This modul is vector unit for GO
+20220920-1613
 */
 
 package govector
